@@ -1,1 +1,1 @@
-export * as T from './type'
+export * as T from './type';

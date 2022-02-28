@@ -5,3 +5,7 @@ export const isUpper = (c: string): boolean => c >= 'A' && c <= 'Z';
 export const isLower = (c: string): boolean => c >= 'a' && c <= 'z';
 
 export const isSpace = (c: string): boolean => [' ', '\n', '\t', '\r', '\v'].includes(c);
+
+export const int = (c: string): number => c.charCodeAt(0);
+
+export const char = (x: number): string => String.fromCharCode(x);

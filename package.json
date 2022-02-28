@@ -2,8 +2,8 @@
   "name": "mvhou-ts",
   "version": "0.0.3",
   "description": "",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config",
     "build": "tsc",

@@ -48,10 +48,3 @@ describe('Natural to negative 5..-5', () => {
     expect(A.numArray(5, -5)).toStrictEqual(expectedResult);
   });
 });
-
-describe('Natural to negative 5..-5', () => {
-  const expectedResult = [5, 4, 3, 2, 1, 0, -1, -2, -3, -4, -6];
-  test(`should return "${expectedResult}" for A.numArray(5, -5)`, () => {
-    expect(A.numArray(5, -5)).toStrictEqual(expectedResult);
-  });
-});
